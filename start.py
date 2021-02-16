@@ -13,6 +13,18 @@ if people == pizza_count: # sabko pizza milega
     three_pizzas = range(four + 1, four + three + 1)
     two_pizzas = range(four + three + 1, four + three + two + 1)
     delivered_teams = pizza_count
+elif people < pizza_count:
+    four_pizzas = range(1, four + 1)
+    three_pizzas = range(four + 1, four + three + 1)
+    two_pizzas = range(four + three + 1, four + three + two + 1)
+    delivered_teams = people
+else:       # people > pizza_count
+    if 2*two == pizza_count:
+        two_pizzas = range(1, two+1)
+    elif 2*two < pizza_count:
+        ans1 = pizza_count - 2*two
+        if 3*three > ans1:
+            ans1 // 3
 
 
 

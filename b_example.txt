@@ -1,4 +1,4 @@
-16 1 2 2
+20 1 2 2
 3 e g wb
 9 bc lc kc ld ib gb hc vc vd
 3 cc c g
@@ -15,3 +15,7 @@
 3 chicken mushroom pepper
 3 tomato mushroom basil
 2 chicken basil
+4 hb tb db dc
+2 zb gd
+6 f nd kb ec tc cb
+3 rd md kc
